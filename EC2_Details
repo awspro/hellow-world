@@ -1,0 +1,7 @@
+provider "aws"
+{
+ACCESS_KEY = "${var.AWS_ACCESS_KEY}"
+SECRET_ACCESS_KEY ="${var.SECRET_ACCESS_KEY}"
+region = "${var.AWS_REGION}"
+}
+
